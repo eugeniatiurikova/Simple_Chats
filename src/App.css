@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form {
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.popupform {
+  padding: 10px 20px;
+  width: 27vw;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  position: sticky;
+  top: -25px;
+  z-index: 500;
+  background-color: rgb(241, 241, 241);
+  padding: 25px 5px 0 5px;
+  margin: -25px -5px 0 -5px;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: start;
+}
+
+.content_l {
+  width: 40%;
+}
+
+.content_r {
+  width: 60%;
+}
+
+.content_e {
+  width: 50%;
+}
+
+.bodytext {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.placeholdertext {
+  text-align: center;
+  padding: 70px 10%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: dimgray;
+}
+
+.mainmenu {
+  /* width: 150px; */
+  border-radius: 10px;
+  padding: 25px;
+  background-color: rgb(241, 241, 241);
+}
+
+.messagetext {
+  align-self: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 25px;
+  background-color: rgb(241, 241, 241);
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.messagetext::-webkit-scrollbar {
+  width: 13px;
+}
+
+.messagetext::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.messagetext::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 4px solid rgb(241, 241, 241);
+}
+
+.datatext {
+  color: rgb(166, 166, 166)
+}
